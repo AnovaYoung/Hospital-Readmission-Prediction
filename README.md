@@ -82,7 +82,7 @@ Local or GitHub Repo --> S3 (Data) --> SageMaker Studio (EDA, Feature Eng.) --> 
    - Remove or impute missing values (e.g., “?” in the dataset).  
    - Ensure consistent formatting for categorical variables (e.g., diagnosis codes).
 
-3. **Feature Engineering**:  
+3. **Feature Engineering/EDA**:  
    - Convert readmission status to a binary label (readmitted within 30 days vs. not).  
    - Extract useful features from medication changes, diagnoses, and admission info.  
    - Handle imbalanced labels (class weighting or SMOTE).  
